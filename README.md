@@ -13,7 +13,11 @@
 
 ## Quick Run in Carla
 
-Install the environment as in [Installation](docs/INSTALL.md), download our checkpoint (189K: [GoogleDrive](https://drive.google.com/file/d/1ezaOmsz0lwuWckiJtBIDkhviOS35oEhZ/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1mxImkL5TiPgdoegbwCDglg?pwd=9xou)(提取码 9xou).  2M:[GoogleDrive](https://drive.google.com/file/d/1IFyRftYFg72AxoSePrW2oTg-cH4l3MFV/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1EcYuftXpbLTnm-FMCq1Umg?pwd=g6ki)(提取码 g6ki), put it into **open_loop_training/ckpt**, and run:
+- Install the environment as stated in [Installation](docs/INSTALL.md)
+- Download the checkpoint.
+  - `189K frames Training Set`: [GoogleDrive](https://drive.google.com/file/d/1ezaOmsz0lwuWckiJtBIDkhviOS35oEhZ/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1mxImkL5TiPgdoegbwCDglg?pwd=9xou)(提取码 9xou).
+  - `2M frames Training Set`: [GoogleDrive](https://drive.google.com/file/d/1IFyRftYFg72AxoSePrW2oTg-cH4l3MFV/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1EcYuftXpbLTnm-FMCq1Umg?pwd=g6ki)(提取码 g6ki)
+- Put it into **open_loop_training/ckpt**, and run:
 
 ```shell
 ## In the DriveAdapter/ directory
@@ -22,7 +26,7 @@ CUDA_VISIBLE_DEVICES=0 nohup bash ./leaderboard/scripts/evaluation_town05long.sh
 
 Check [closed_loop_eval_log/eval_log](closed_loop_eval_log/eval_log) to see how our model drives in Carla! :oncoming_automobile:
 
-(In case you have a screen to see the interface of Carla simulator, you could remove *DISPLAY=* in [leaderboard/leaderboard/leaderboard_evaluator.py](leaderboard/leaderboard/leaderboard_evaluator.py) and then you could directly watch with Carla.) 
+> In case you have a screen to see the interface of Carla simulator, you could remove *`DISPLAY=`* in [leaderboard/leaderboard/leaderboard_evaluator.py](leaderboard/leaderboard/leaderboard_evaluator.py) and then you could watch with Carla straight ahead. 
 
 
 ## Code Structure
@@ -88,19 +92,13 @@ have a look if you are interested and please consider citing if you find it help
 } 
 ```
 
-## OpenDriveLab's Road Map to End-to-End Autonomous Driving
-
-- Closed-Loop Simulation-Based Evaluation: [TCP](https://github.com/OpenPerceptionX/TCP) (Initial try, CARLA LeaderBoard 1st) ----> [PPGeo](https://github.com/OpenDriveLab/PPGeo) (Unsupervised Pretraining for Policy Learning)  ----> [ThinkTwice](https://github.com/OpenDriveLab/ThinkTwice) (BEV Perception + Scale Up) ----> [DriveAdapter](https://github.com/OpenDriveLab/DriveAdapter) (New Paradigm without Causal Confusion)
-
-- Open-Loop Real World Dataset Evaluation: [ST-P3](https://github.com/OpenDriveLab/ST-P3) (Initial try based on LSS) & [BEVFormer](https://github.com/fundamentalvision/BEVFormer) (Powerful Transformer-based BEV Backbone) ----> [UniAD](https://github.com/OpenDriveLab/UniAD) (Pure Transformer-based E2E Framework & Scale Up) 
-
-- **Next Step** - [DriveAGI](https://github.com/OpenDriveLab/DriveAGI)
-  - [DriveLM](https://github.com/OpenDriveLab/DriveLM): Language Prompt for Driving (TBA)
-  - [OpenScene](https://github.com/OpenDriveLab/OpenScene): Large 3D Occupancy Forecasting Dataset For Visual Pre-training (TBA)
-  - **GenAD**: Multimodal World Model (TBA)
+## One More Thing: End-to-End Autonomous Driving 
+### From an OpenDriveLab Perspective
+>![e2e](src/opendrivelab_e2e.png) 
 
 
-Check out our [End-to-end Autonomous Driving Survey](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) for more information!
+Check out the latest [End-to-end Autonomous Driving Survey](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) 
+for more information!
 
 
 
