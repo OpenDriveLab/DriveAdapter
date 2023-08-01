@@ -77,7 +77,8 @@ If this work is helpful for your research, please consider citing the following 
 }
 ```
 
-DriveAdapter is developed based on our previous work [ThinkTwice](https://github.com/OpenDriveLab/ThinkTwice), have a look if you are interested and please consider citing if you find it helpful:
+DriveAdapter is developed based on our prior work [ThinkTwice](https://github.com/OpenDriveLab/ThinkTwice), 
+have a look if you are interested and please consider citing if you find it helpful:
 ```
 @inproceedings{jia2023thinktwice,
   title={Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving},
@@ -89,14 +90,14 @@ DriveAdapter is developed based on our previous work [ThinkTwice](https://github
 
 ## OpenDriveLab's Road Map to End-to-End Autonomous Driving
 
-- Closed-Loop Simulation-Based Evaluation: [TCP](https://github.com/OpenPerceptionX/TCP) (Initial try, CARLA LeaderBoard 1st) ----> [ThinkTwice](https://github.com/OpenDriveLab/ThinkTwice) (BEV Perception + Scale Up) ----> [DriveAdapter](https://github.com/OpenDriveLab/DriveAdapter) (New Paradigm without Causal Confusion)
+- Closed-Loop Simulation-Based Evaluation: [TCP](https://github.com/OpenPerceptionX/TCP) (Initial try, CARLA LeaderBoard 1st) ----> [PPGeo](https://github.com/OpenDriveLab/PPGeo) (Unsupervised Pretraining for Policy Learning)  ----> [ThinkTwice](https://github.com/OpenDriveLab/ThinkTwice) (BEV Perception + Scale Up) ----> [DriveAdapter](https://github.com/OpenDriveLab/DriveAdapter) (New Paradigm without Causal Confusion)
 
 - Open-Loop Real World Dataset Evaluation: [ST-P3](https://github.com/OpenDriveLab/ST-P3) (Initial try based on LSS) & [BEVFormer](https://github.com/fundamentalvision/BEVFormer) (Powerful Transformer-based BEV Backbone) ----> [UniAD](https://github.com/OpenDriveLab/UniAD) (Pure Transformer-based E2E Framework & Scale Up) 
 
 - **Next Step** - [DriveAGI](https://github.com/OpenDriveLab/DriveAGI)
-  - **DriveEngine**: Foundation Models for Autonomous Driving (TBA)
   - [DriveLM](https://github.com/OpenDriveLab/DriveLM): Language Prompt for Driving (TBA)
   - [OpenScene](https://github.com/OpenDriveLab/OpenScene): Large 3D Occupancy Forecasting Dataset For Visual Pre-training (TBA)
+  - **GenAD**: Multimodal World Model (TBA)
 
 
 Check out our [End-to-end Autonomous Driving Survey](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) for more information!
@@ -110,6 +111,7 @@ Many thanks to the open-source community!
 - [ThinkTwice](https://github.com/OpenDriveLab/ThinkTwice) (:rocket:Ours!)
 - [End-to-end Autonomous Driving Survey](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) (:rocket:Ours!)
 - [TCP](https://github.com/OpenDriveLab/TCP) (:rocket:Ours!)
+- [PPGeo](https://github.com/OpenDriveLab/PPGeo) (:rocket:Ours!)
 - [BEVFormer](https://github.com/fundamentalvision/BEVFormer) (:rocket:Ours!)
 - [UniAD](https://github.com/OpenDriveLab/UniAD) (:rocket:Ours!)
 - [ST-P3](https://github.com/OpenDriveLab/ST-P3) (:rocket:Ours!)
@@ -118,6 +120,4 @@ Many thanks to the open-source community!
 - [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth)
 - [Transfuser](https://github.com/autonomousvision/transfuser)
 - [LAV](https://github.com/dotchen/LAV)
-- [Interfuser](https://github.com/opendilab/InterFuser)
 - [IBISCape](https://github.com/AbanobSoliman/IBISCape)
-- [mmdet3d](https://github.com/open-mmlab/mmdetection3d)
