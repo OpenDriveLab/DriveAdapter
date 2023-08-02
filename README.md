@@ -1,9 +1,9 @@
 # DriveAdapter: New Paradigm for End-to-End Autonomous Driving to Alleviate Causal Confusion
 
-> **DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving** [ICCV 2023] 
->![pipeline](src/pipeline.PNG)  
-> [arXiv Paper](https://arxiv.org/abs/2308.00398)
+> **DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving**
+> - [arXiv Paper](https://arxiv.org/abs/2308.00398), accepted at ICCV 2023
 > 
+> ![pipeline](src/pipeline.PNG)  
 ## Getting Started
 
 - [Installation](docs/INSTALL.md)
@@ -15,8 +15,8 @@
 ## Quick Run in Carla
 
 - Install the environment as stated in [Installation](docs/INSTALL.md)
-- Download the checkpoint.
-  - `189K frames Training Set`: [GoogleDrive](https://drive.google.com/file/d/1ezaOmsz0lwuWckiJtBIDkhviOS35oEhZ/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1mxImkL5TiPgdoegbwCDglg?pwd=9xou)(提取码 9xou).
+- Download the checkpoint
+  - `189K frames Training Set`: [GoogleDrive](https://drive.google.com/file/d/1ezaOmsz0lwuWckiJtBIDkhviOS35oEhZ/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1mxImkL5TiPgdoegbwCDglg?pwd=9xou)(提取码 9xou)
   - `2M frames Training Set`: [GoogleDrive](https://drive.google.com/file/d/1IFyRftYFg72AxoSePrW2oTg-cH4l3MFV/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1EcYuftXpbLTnm-FMCq1Umg?pwd=g6ki)(提取码 g6ki)
 - Put it into **open_loop_training/ckpt**, and run:
 
@@ -95,7 +95,7 @@ have a look if you are interested and please consider citing if you find it help
 
 ## One More Thing: End-to-End Autonomous Driving 
 ### From an OpenDriveLab Perspective
->![e2e](src/opendrivelab_e2e.png) 
+![e2e](src/opendrivelab_e2e_update.png) 
 
 
 Check out the latest [End-to-end Autonomous Driving Survey](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) 
