@@ -2,7 +2,8 @@
 
 > **DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving** [ICCV 2023] 
 >![pipeline](src/pipeline.PNG)  
-
+> [arXiv Paper](https://arxiv.org/abs/2308.00398)
+> 
 ## Getting Started
 
 - [Installation](docs/INSTALL.md)
