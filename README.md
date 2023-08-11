@@ -116,7 +116,7 @@ Many thanks to the open-source community!
 - [ST-P3](https://github.com/OpenDriveLab/ST-P3) (:rocket:Ours!)
 - [Carla](https://github.com/carla-simulator/carla)
 - [Roach](https://github.com/zhejz/carla-roach)
-- [BEFusion](https://github.com/mit-han-lab/bevfusion)
+- [BEVFusion](https://github.com/mit-han-lab/bevfusion)
 - [Mask2Former](https://github.com/facebookresearch/Mask2Former)
 - [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth)
 - [Transfuser](https://github.com/autonomousvision/transfuser)
