@@ -120,5 +120,6 @@ Many thanks to the open-source community!
 - [Mask2Former](https://github.com/facebookresearch/Mask2Former)
 - [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth)
 - [Transfuser](https://github.com/autonomousvision/transfuser)
+- [CARLA_GARGE](https://github.com/autonomousvision/carla_garage)
 - [LAV](https://github.com/dotchen/LAV)
 - [IBISCape](https://github.com/AbanobSoliman/IBISCape)
