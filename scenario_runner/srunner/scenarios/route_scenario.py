@@ -19,7 +19,7 @@ import numpy.random as random
 import py_trees
 
 import carla
-
+import os
 from agents.navigation.local_planner import RoadOption
 
 # pylint: disable=line-too-long
@@ -409,6 +409,12 @@ class RouteScenario(BasicScenario):
         }
 
         amount = town_amount[config.town] if config.town in town_amount else 0
+        if os.environ["BENCHMARK"] == "town05long":
+            amount = 120
+            print("----------------Eval with Town05 Long, amount=120", flush=True)
+        if os.environ["BENCHMARK"] == "longest6":
+            amount = 500
+            print("----------------Eval with Longest6, amount=500", flush=True)
 
         new_actors = CarlaDataProvider.request_new_batch_actors('vehicle.*',
                                                                 amount,
